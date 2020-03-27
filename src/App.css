@@ -1,6 +1,26 @@
+  
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+p {
+  /* basic font setting */
+  font: bold 3em Impact, sans-serif;
+  text-align: center;
+  letter-spacing: 2px
+}
+
+
 .square {
-  background: white;
-  border: 1px solid grey;
+  background:hsla(223, 91%, 27%, 0.678);
+  border: 2px solid #065585ad;
+  border-radius: 25px ;
+  box-shadow: 5px 10px 18px #888888;
   float: left;
   margin-right: -1px;
   margin-top:-1px;
@@ -15,14 +35,19 @@
 
 .square:focus{
   outline: none;
+  scale:110%;
 }
 .border-row:after{
   clear:both;
   content: "";
   display: table;
-
 }
-
+.status {
+  margin-bottom: 10px;
+}
+.game-info {
+  margin-left: 20px;
+}
 .game{
   position: absolute;
   top:50%;
